@@ -33,7 +33,6 @@
     },
     
     "id": "http://www.w3.org/ns/webmention#",
-    "type": "rdf:Property",
     "rdfs:label": "Webmention Terms",
     "rdfs:comment": "This is the JSON-LD context and vocabulary description for terms used by the Webmention protocol.",
     
