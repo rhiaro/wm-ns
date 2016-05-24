@@ -38,7 +38,7 @@
     "rdfs:comment": "This is the JSON-LD context and vocabulary description for terms used by the Webmention protocol.",
     
     "rdfs_classes": {
-      "id": "Webmention",
+      "id": "wm:Webmention",
       "type": "rdfs:Class",
       "rdfs:label": "Webmention",
       "rdfs:comment": {
@@ -47,7 +47,7 @@
         }
     },
     "rdfs_properties": [{
-      "id": "source",
+      "id": "wm:source",
       "type": "rdf:Property",
       "rdfs:label": "Source",
       "rdfs:comment": {
@@ -57,7 +57,7 @@
     },
 
     {
-      "id": "target",
+      "id": "wm:target",
       "type": "rdf:Property",
       "rdfs:label": "Target",
       "rdfs:comment": {
@@ -67,7 +67,7 @@
     },
 
     {
-      "id": "webmention",
+      "id": "wm:webmention",
       "type": "rdf:Property",
       "rdfs:label": "Webmention endpoint",
       "rdfs:comment": {
